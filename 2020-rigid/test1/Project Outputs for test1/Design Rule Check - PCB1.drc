@@ -1,0 +1,88 @@
+Protel Design System Design Rule Check
+PCB File : C:\git\TomKeddie\prj-teachmepcb\2020-rigid\test1\PCB1.PcbDoc
+Date     : 2020-04-09
+Time     : 6:36:28 AM
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.5mm) (Max=0.5mm) (Preferred=0.5mm) (InNet('GND'))
+   Violation between Width Constraint: Track (66.925mm,105.136mm)(83.601mm,105.136mm) on Bottom Layer Actual Width = 0.4mm, Target Width = 0.5mm
+Rule Violations :1
+
+Processing Rule : Width Constraint (Min=0.5mm) (Max=0.5mm) (Preferred=0.5mm) (InNet('12V'))
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.711mm) (MaxHoleWidth=0.711mm) (PreferredHoleWidth=0.711mm) (MinWidth=1.27mm) (MaxWidth=1.27mm) (PreferedWidth=1.27mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.067mm < 0.254mm) Between Pad Q1-1(66.04mm,103.886mm) on Multi-Layer And Pad Q1-2(64.77mm,103.886mm) on Multi-Layer [Top Solder] Mask Sliver [0.067mm] / [Bottom Solder] Mask Sliver [0.067mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.067mm < 0.254mm) Between Pad Q1-2(64.77mm,103.886mm) on Multi-Layer And Pad Q1-3(63.5mm,103.886mm) on Multi-Layer [Top Solder] Mask Sliver [0.067mm] / [Bottom Solder] Mask Sliver [0.067mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.067mm < 0.254mm) Between Pad Q2-1(84.455mm,103.632mm) on Multi-Layer And Pad Q2-2(83.185mm,103.632mm) on Multi-Layer [Top Solder] Mask Sliver [0.067mm] / [Bottom Solder] Mask Sliver [0.067mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.067mm < 0.254mm) Between Pad Q2-2(83.185mm,103.632mm) on Multi-Layer And Pad Q2-3(81.915mm,103.632mm) on Multi-Layer [Top Solder] Mask Sliver [0.067mm] / [Bottom Solder] Mask Sliver [0.067mm]
+Rule Violations :4
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.245mm < 0.254mm) Between Pad R1-1(61mm,89.81mm) on Multi-Layer And Track (61mm,88.54mm)(61mm,88.769mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.245mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.245mm < 0.254mm) Between Pad R1-2(61mm,82.19mm) on Multi-Layer And Track (61mm,83.231mm)(61mm,83.46mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.245mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.245mm < 0.254mm) Between Pad R2-1(87mm,90.06mm) on Multi-Layer And Track (87mm,88.79mm)(87mm,89.019mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.245mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.245mm < 0.254mm) Between Pad R2-2(87mm,82.44mm) on Multi-Layer And Track (87mm,83.481mm)(87mm,83.71mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.245mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.245mm < 0.254mm) Between Pad R3-1(79.121mm,90.043mm) on Multi-Layer And Track (79.121mm,88.773mm)(79.121mm,89.002mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.245mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.245mm < 0.254mm) Between Pad R3-2(79.121mm,82.423mm) on Multi-Layer And Track (79.121mm,83.464mm)(79.121mm,83.693mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.245mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.245mm < 0.254mm) Between Pad R4-1(68.5mm,89.81mm) on Multi-Layer And Track (68.5mm,88.54mm)(68.5mm,88.769mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.245mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.245mm < 0.254mm) Between Pad R4-2(68.5mm,82.19mm) on Multi-Layer And Track (68.5mm,83.231mm)(68.5mm,83.46mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.245mm]
+Rule Violations :8
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1'))
+   Violation between Room Definition: Between Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1')) And Small Component C1-20nF (83.185mm,96.266mm) on Top Layer 
+   Violation between Room Definition: Between Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1')) And Small Component C2-20nF (64.77mm,96.393mm) on Top Layer 
+   Violation between Room Definition: Between Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1')) And Small Component Q1-2N3904 (64.77mm,103.886mm) on Top Layer 
+   Violation between Room Definition: Between Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1')) And Small Component Q2-2N3904 (83.185mm,103.632mm) on Top Layer 
+   Violation between Room Definition: Between Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1')) And Small Component R1-100K (61mm,86mm) on Top Layer 
+   Violation between Room Definition: Between Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1')) And Small Component R2-100K (87mm,86.25mm) on Top Layer 
+   Violation between Room Definition: Between Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1')) And Small Component R3-1K (79.121mm,86.233mm) on Top Layer 
+   Violation between Room Definition: Between Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1')) And Small Component R4-1K (68.5mm,86mm) on Top Layer 
+   Violation between Room Definition: Between Room Sheet1 (Bounding Region = (178.943mm, 26.924mm, 220.345mm, 41.402mm) (InComponentClass('Sheet1')) And Small Component Y1-Header 2 (54.483mm,90.17mm) on Top Layer 
+Rule Violations :9
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 22
+Waived Violations : 0
+Time Elapsed        : 00:00:01
