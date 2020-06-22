@@ -45,7 +45,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=-1
-DoLibraryUpdate=0
+DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -113,7 +113,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=-1
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -199,71 +199,83 @@ DocumentPath=Project Outputs for Badge\badge-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Badge\badge.DRR
+DocumentPath=Project Outputs for Badge\Badge.csv
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Badge\badge.EXTREP
+DocumentPath=Project Outputs for Badge\badge.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Badge\badge.GBL
+DocumentPath=Project Outputs for Badge\badge.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Badge\badge.GBO
+DocumentPath=Project Outputs for Badge\badge.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Badge\badge.GBP
+DocumentPath=Project Outputs for Badge\badge.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Badge\badge.GBS
+DocumentPath=Project Outputs for Badge\badge.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Badge\badge.GD1
+DocumentPath=Project Outputs for Badge\badge.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Badge\badge.GG1
+DocumentPath=Project Outputs for Badge\badge.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Badge\badge.GM3
+DocumentPath=Project Outputs for Badge\badge.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for Badge\badge.GTL
+DocumentPath=Project Outputs for Badge\badge.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for Badge\badge.GTO
+DocumentPath=Project Outputs for Badge\badge.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for Badge\badge.GTP
+DocumentPath=Project Outputs for Badge\badge.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for Badge\badge.GTS
+DocumentPath=Project Outputs for Badge\badge.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for Badge\badge.LDP
+DocumentPath=Project Outputs for Badge\badge.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for Badge\badge.REP
+DocumentPath=Project Outputs for Badge\badge.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for Badge\badge.RUL
+DocumentPath=Project Outputs for Badge\badge.REP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=Project Outputs for Badge\badge.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
 DocumentPath=Project Outputs for Badge\Design Rule Check - badge.html
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for Badge\Pick Place for badge.csv
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Badge\Pick Place for badge.txt
 DItemRevisionGUID=
 
 [Configuration1]
@@ -493,24 +505,28 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Canon MF4800 UFRII LT XPS
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembly
-OutputName1=Assembly Drawings
+OutputType1=Test Points For Assembly
+OutputName1=Test Point Report
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Digi-Key_Purchase_URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#18=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#19=Name:LatestRevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#20=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#21=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#22=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#23=Name:PackageReference,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#24=Name:MF,Fixed:False,Metric:False,Visible:True,Sort:None,Position:21|Column#25=Name:Publisher,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#26=Name:SnapEDA_Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#27=Name:Digi-Key_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#28=Name:MP,Fixed:False,Metric:False,Visible:True,Sort:None,Position:22|Column#29=Name:Availability,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#30=Name:PackageVersion,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#31=Name:Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#32=Name:Published,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28
+OutputType3=Assembly
+OutputName3=Assembly Drawings
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -610,11 +626,13 @@ Configuration1_Item2=False
 Configuration1_Name3=General
 Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration1_Name4=GroupOrder
-Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Item4=Comment=True|Footprint=True|MP=True|MF=True
 Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Item5=Designator=Up
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120|MP=100|MF=100
+Configuration1_Name7=VisibleOrder_Flat
+Configuration1_Item7=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120|MP=100|MF=100
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -1297,166 +1315,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=badge.IntLib
-ComponentDesignItemID0=95278-101A06LF
-ComponentSymbolReference0=95278-101A06LF
-ComponentUpdate0=0
+ComponentDesignItemID0=CapPol
+ComponentSymbolReference0=CapPol
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=badge.IntLib
-ComponentDesignItemID1=ATMEGA328P-AUR
-ComponentSymbolReference1=ATMEGA328P-AUR
-ComponentUpdate1=0
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=badge.IntLib
-ComponentDesignItemID2=ATSAMD11C14A
-ComponentSymbolReference2=ATSAMD11C14A
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=badge.IntLib
-ComponentDesignItemID3=B3S-1000P
-ComponentSymbolReference3=B3S-1000P
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=badge.IntLib
-ComponentDesignItemID4=BATT_18650x2
-ComponentSymbolReference4=BATT_18650x2
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=badge.IntLib
-ComponentDesignItemID5=BK-883
-ComponentSymbolReference5=BK-883
-ComponentUpdate5=0
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=badge.IntLib
-ComponentDesignItemID6=BME280
-ComponentSymbolReference6=BME280
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=badge.IntLib
-ComponentDesignItemID7=BNO055
-ComponentSymbolReference7=BNO055
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=badge.IntLib
-ComponentDesignItemID8=Cap
-ComponentSymbolReference8=Cap
-ComponentUpdate8=0
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=badge.IntLib
-ComponentDesignItemID9=Cap0603
-ComponentSymbolReference9=Cap0603
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=badge.IntLib
-ComponentDesignItemID10=Cap1206
-ComponentSymbolReference10=Cap1206
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=badge.IntLib
-ComponentDesignItemID11=ER-TFTM024-3
-ComponentSymbolReference11=ER-TFTM024-3
-ComponentUpdate11=0
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=badge.IntLib
-ComponentDesignItemID12=JS202011SCQN
-ComponentSymbolReference12=JS202011SCQN
-ComponentUpdate12=1
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=badge.IntLib
-ComponentDesignItemID13=LED
-ComponentSymbolReference13=LED
-ComponentUpdate13=0
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=badge.IntLib
-ComponentDesignItemID14=MC-405_32.7680K-D:_ROHS
-ComponentSymbolReference14=MC-405_32.7680K-D:_ROHS
-ComponentUpdate14=0
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=badge.IntLib
-ComponentDesignItemID15=MCP7940MT-I/SN
-ComponentSymbolReference15=MCP7940MT-I/SN
-ComponentUpdate15=0
-ComponentIsDeviceSheet15=0
-ComponentLibIdentifierKind16=Library Name And Type
-ComponentLibraryIdentifier16=badge.IntLib
-ComponentDesignItemID16=MIC5219BM5
-ComponentSymbolReference16=MIC5219BM5
-ComponentUpdate16=1
-ComponentIsDeviceSheet16=0
-ComponentLibIdentifierKind17=Library Name And Type
-ComponentLibraryIdentifier17=badge.IntLib
-ComponentDesignItemID17=MICROUSB_TAOBAO
-ComponentSymbolReference17=MICROUSB_TAOBAO
-ComponentUpdate17=1
-ComponentIsDeviceSheet17=0
-ComponentLibIdentifierKind18=Library Name And Type
-ComponentLibraryIdentifier18=badge.IntLib
-ComponentDesignItemID18=MOSFET-N
-ComponentSymbolReference18=MOSFET-N
-ComponentUpdate18=1
-ComponentIsDeviceSheet18=0
-ComponentLibIdentifierKind19=Library Name And Type
-ComponentLibraryIdentifier19=badge.IntLib
-ComponentDesignItemID19=PRTR5V0U2X
-ComponentSymbolReference19=PRTR5V0U2X
-ComponentUpdate19=1
-ComponentIsDeviceSheet19=0
-ComponentLibIdentifierKind20=Library Name And Type
-ComponentLibraryIdentifier20=badge.IntLib
-ComponentDesignItemID20=PWRIN
-ComponentSymbolReference20=PWRIN
-ComponentUpdate20=1
-ComponentIsDeviceSheet20=0
-ComponentLibIdentifierKind21=Library Name And Type
-ComponentLibraryIdentifier21=badge.IntLib
-ComponentDesignItemID21=Res
-ComponentSymbolReference21=Res
-ComponentUpdate21=0
-ComponentIsDeviceSheet21=0
-ComponentLibIdentifierKind22=Library Name And Type
-ComponentLibraryIdentifier22=badge.IntLib
-ComponentDesignItemID22=SAMTEC-FTSH-105-01-X-DVJ
-ComponentSymbolReference22=SAMTEC-FTSH-105-01-X-DVJ
-ComponentUpdate22=1
-ComponentIsDeviceSheet22=0
-ComponentLibIdentifierKind23=Library Name And Type
-ComponentLibraryIdentifier23=badge.IntLib
-ComponentDesignItemID23=Speaker
-ComponentSymbolReference23=Speaker
-ComponentUpdate23=1
-ComponentIsDeviceSheet23=0
-ComponentLibIdentifierKind24=Library Name And Type
-ComponentLibraryIdentifier24=badge.SchLib
-ComponentDesignItemID24=ABM3-16.000MHZ-B2-T
-ComponentSymbolReference24=ABM3-16.000MHZ-B2-T
-ComponentUpdate24=1
-ComponentIsDeviceSheet24=0
-ComponentLibIdentifierKind25=Library Name And Type
-ComponentLibraryIdentifier25=badge.SchLib
-ComponentDesignItemID25=WS2182B
-ComponentSymbolReference25=WS2182B
-ComponentUpdate25=1
-ComponentIsDeviceSheet25=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1470,151 +1338,33 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Availability
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=LatestRevisionDate
 ParameterUpdate3=1
-ParameterName4=Digi-Key_Part_Number
+ParameterName4=LatestRevisionNote
 ParameterUpdate4=1
-ParameterName5=Digi-Key_Purchase_URL
+ParameterName5=Library Reference
 ParameterUpdate5=1
-ParameterName6=LatestRevisionDate
+ParameterName6=PackageDescription
 ParameterUpdate6=1
-ParameterName7=LatestRevisionNote
+ParameterName7=PackageReference
 ParameterUpdate7=1
-ParameterName8=Library Reference
+ParameterName8=Published
 ParameterUpdate8=1
-ParameterName9=MF
+ParameterName9=Publisher
 ParameterUpdate9=1
-ParameterName10=MP
+ParameterName10=Value
 ParameterUpdate10=1
-ParameterName11=Package
-ParameterUpdate11=1
-ParameterName12=PackageDescription
-ParameterUpdate12=1
-ParameterName13=PackageReference
-ParameterUpdate13=1
-ParameterName14=PackageVersion
-ParameterUpdate14=1
-ParameterName15=Price
-ParameterUpdate15=1
-ParameterName16=Published
-ParameterUpdate16=1
-ParameterName17=Publisher
-ParameterUpdate17=1
-ParameterName18=SnapEDA_Link
-ParameterUpdate18=1
-ParameterName19=Value
-ParameterUpdate19=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=AMPHENOL_95278-101A06LF
+ModelName0=C1206 _POL
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=BAT_BK-883
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=BATT_18650x2
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=C0603
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=C0805
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=C1206
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=CAPAE430X550N
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=ER-TFTM024-3
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=L0603
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=LED-0
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=LGA28R50P4X10_380X520X100
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=MICROUSB_TAOBAO
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=PSON65P250X250X100-8N
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=PWRIN
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=QFP80P900X900X120-32N
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=R0603
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=SAMTEC-FTSH-105-01-X-DV
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=SMC
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=SOIC127P600X175-14N
-ModelUpdate18=1
-ModelType19=PCBLIB
-ModelName19=SOIC127P600X175-8N
-ModelUpdate19=1
-ModelType20=PCBLIB
-ModelName20=SOT190P230X110-4N
-ModelUpdate20=1
-ModelType21=PCBLIB
-ModelName21=SOT23_N
-ModelUpdate21=1
-ModelType22=PCBLIB
-ModelName22=SOT23-5_N
-ModelUpdate22=1
-ModelType23=PCBLIB
-ModelName23=SW_B3S-1000P
-ModelUpdate23=1
-ModelType24=PCBLIB
-ModelName24=SW_JS202011SCQN
-ModelUpdate24=1
-ModelType25=PCBLIB
-ModelName25=WS2812B_SIDE
-ModelUpdate25=1
-ModelType26=PCBLIB
-ModelName26=XTAL320X150
-ModelUpdate26=1
-ModelType27=PCBLIB
-ModelName27=XTAL500X320X130N
-ModelUpdate27=1
-ModelTypeGroup1=SI
-ModelTypeUpdate1=1
-ModelType28=SI
-ModelName28=Cap
-ModelUpdate28=1
-ModelType29=SI
-ModelName29=Res
-ModelUpdate29=1
-ModelTypeGroup2=SIM
-ModelTypeUpdate2=1
-ModelType30=SIM
-ModelName30=CAP
-ModelUpdate30=1
-ModelType31=SIM
-ModelName31=LED0
-ModelUpdate31=1
-ModelType32=SIM
-ModelName32=RESISTOR
-ModelUpdate32=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
