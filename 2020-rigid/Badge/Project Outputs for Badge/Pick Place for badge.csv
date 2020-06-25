@@ -4,13 +4,14 @@ C:\git\TomKeddie\prj-teachmepcb\2020-rigid\Badge\Project Outputs for Badge\Pick 
 ========================================================================================================================
 File Design Information:
 
-Date:       22-06-20
-Time:       13:52
-Revision:   d8e787590f62a69865bae1e5697c1eea1cc768ee
+Date:       25-06-20
+Time:       08:52
+Revision:   d8d6a967eba9f480596a608d38d842c149af2c7e
 Variant:    No variations
 Units used: mm
 
 "Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description","MF","MP"
+"U1","ATMEGA328P-AUR","TopLayer","QFP80P900X900X120-32N","61.5950","34.6710","0","AVR AVR® ATmega Microcontroller IC 8-Bit 20MHz 32KB _16K x 16_ FLASH 32-TQFP _7x7_","Microchip","ATMEGA328P-AUR"
 "C13","","TopLayer","C1206__POL","49.7840","22.2250","180","Capacitor","KEMET","T491A106K010AT"
 "C8","","TopLayer","C1206__POL","88.9000","49.4030","270","Capacitor","KEMET","T491A106K010AT"
 "C7","","TopLayer","C1206__POL","79.2480","55.3720","90","Capacitor","KEMET","T491A106K010AT"
@@ -25,7 +26,6 @@ Units used: mm
 "U5","ATSAMD11C14A","BottomLayer","SOIC127P600X175-14N","90.0430","46.8630","360","","Atmel","ATSAMD11C14A-SSNTDKR-ND"
 "U4","MIC5219BM5","TopLayer","SOT23-5_N","88.9000","53.9750","180","Linear Voltage Regulator IC 1 Output 500mA SOT-23-5","Micrel","MIC5219BM5"
 "U3","MIC5219BM5","TopLayer","SOT23-5_N","85.3440","49.4030","0","Linear Voltage Regulator IC 1 Output 500mA SOT-23-5","Micrel","MIC5219BM5"
-"U1","ATMEGA328P-AUR","TopLayer","QFP80P900X900X120-32N","61.5950","34.6710","0","AVR AVR® ATmega Microcontroller IC 8-Bit 20MHz 32KB _16K x 16_ FLASH 32-TQFP _7x7_","Microchip","ATMEGA328P-AUR"
 "SENSOR1","BME280","BottomLayer","PSON65P250X250X100-8N","63.5710","65.0000","90","Humidity Temperature Sensor 0 ~ 100% RH I²C, SPI ±3% 1s Surface Mount","Bosch","BME280"
 "S5","B3S-1000P","TopLayer","SW_B3S-1000P","100.6460","30.0070","0","Tactile Switch SPST-NO Top Actuated Surface Mount","Omron Electronics","B3S-1000P"
 "S4","B3S-1000P","TopLayer","SW_B3S-1000P","90.6460","30.0070","90","Tactile Switch SPST-NO Top Actuated Surface Mount","Omron Electronics","B3S-1000P"
