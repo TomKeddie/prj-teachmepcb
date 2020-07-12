@@ -4,9 +4,9 @@ C:\git\TomKeddie\prj-teachmepcb\2020-rigid\Badge\Project Outputs for Badge\Pick 
 ========================================================================================================================
 File Design Information:
 
-Date:       25-06-20
-Time:       08:52
-Revision:   d8d6a967eba9f480596a608d38d842c149af2c7e
+Date:       12-07-20
+Time:       08:30
+Revision:   6a5c5de8d4d47495f2e168a04d1578799d17006f
 Variant:    No variations
 Units used: mm
 
@@ -92,7 +92,7 @@ Units used: mm
 "C18","Cap0603","BottomLayer","C0603","66.2940","65.0000","270","Capacitor","KEMET","C0603C104Z3VACTU"
 "C17","Cap","BottomLayer","C0603","68.5800","56.2610","180","Capacitor","KEMET","C0603C100J1GACTU"
 "C16","Cap0603","BottomLayer","C0603","66.9290","54.1020","180","Capacitor","KEMET","C0603C104Z3VACTU"
-"C15","Cap","BottomLayer","C0805","111.8870","37.5920","360","Capacitor","",""
+"C15","Cap","BottomLayer","C0805","111.8870","37.5920","360","Capacitor","KEMET","C0805C472KDRACTU"
 "C14","Cap0603","BottomLayer","C0603","94.9960","45.5930","360","Capacitor","KEMET","C0603C104Z3VACTU"
 "C12","Cap0603","TopLayer","C0603","85.3440","46.4820","360","Capacitor","KEMET","C0603C471J1GACTU"
 "C11","Cap0603","TopLayer","C0603","82.2960","50.0380","90","Capacitor","KEMET","C0603C104M4RACTU"
